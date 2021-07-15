@@ -1,0 +1,50 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+
+
+.column-width50 {
+  width: 50%;
+}
+
+.row-margin {
+  margin: 15px;
+}
+
+.btn {
+  font-family: "Roboto medium", sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  height: 36px;
+  min-width: 88px;
+  padding: 6px 16px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #000;
+  background: rgb(11, 110, 223);
+  color: #fff;
+  outline: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
